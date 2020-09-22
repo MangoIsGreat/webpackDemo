@@ -86,14 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/001.png":
+/*!*********************!*\
+  !*** ./src/001.png ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"754da55cdcba45839e94a9085c15c3e9.png\");\n\n//# sourceURL=webpack:///./src/001.png?");
+
+/***/ }),
+
 /***/ "./src/content.js":
 /*!************************!*\
   !*** ./src/content.js ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("function Content(app) {\r\n    app.innerText = \"我是content\"\r\n}\r\n\r\nmodule.exports = Content\n\n//# sourceURL=webpack:///./src/content.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction Content(app) {\r\n    app.innerText = \"我是content\"\r\n}\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    Content\r\n});\n\n//# sourceURL=webpack:///./src/content.js?");
 
 /***/ }),
 
@@ -101,10 +114,11 @@ eval("function Content(app) {\r\n    app.innerText = \"我是content\"\r\n}\r\n\
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const Content = __webpack_require__(/*! ./content.js */ \"./src/content.js\")\r\n\r\nconst app = document.getElementById(\"app\")\r\n\r\nContent(app)\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _content_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./content.js */ \"./src/content.js\");\n/* harmony import */ var _001_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./001.png */ \"./src/001.png\");\n\r\n\r\n\r\nconst app = document.getElementById(\"app\")\r\n\r\nObject(_content_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(app)\r\n\r\nconst img = new Image()\r\nimg.src = _001_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\r\n\r\napp.append(img)\r\n\r\nconsole.log(_001_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
